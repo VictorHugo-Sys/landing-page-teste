@@ -1,0 +1,64 @@
+@import url(../css/reset.css);
+@import url(../css/fontes.css);
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+/*conteudo css da pagina 1*/
+
+body {
+    background: linear-gradient(to right, #0b0c12 50%, #00454f);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main h1 {
+    color: #7bcedb;
+}
+
+main p {
+    position: relative;
+    color: #f5f7fa;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.input-1 {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 2px solid #e6eaf0;
+    background-color: #f5f7fa;
+}
+
+.input-2 {
+    display: block;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 400px;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    background-color: #7bcedb;
+}
+
+.detalhe-p::before {
+    content: " » " ;
+    position: absolute;
+    top: -47px;
+    left: -47px;
+    font-size: 5rem;
+    color: #7bcedb;
+}
