@@ -3,7 +3,7 @@
 @import url('../css/header.css');
 @import url('../css/footer.css');
 
-/*conteudo css da pagina 1*/
+/*conteudo css da pagina home*/
 
 body {
     background: linear-gradient(to right, #0b0c12 50%, #00454f);
@@ -11,8 +11,9 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     padding: 20px;
+    gap: 30px;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -35,8 +36,8 @@ main p {
 .input-1 {
     display: block;
     margin-bottom: 10px;
-    height: 40px;
-    width: 300px;
+    height: 30px;
+    width: 250px;
     border-radius: 15px;
     font-size: 1.3rem;
     padding: 5px;
@@ -47,8 +48,8 @@ main p {
 .input-2 {
     display: block;
     margin-bottom: 10px;
-    height: 70px;
-    width: 400px;
+    height: 50px;
+    width: 300px;
     border-radius: 15px;
     font-size: 2.5rem;
     background-color: #7bcedb;

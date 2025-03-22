@@ -18,12 +18,20 @@ a {
     text-decoration: none;
 }
 
+header h1 a {
+    color: #7bcedb;
+}
+
+header li:hover{
+    padding: 4px;
+    transition: all 0.2s linear;
+    border-radius: 4px;
+    background-color: #0a6370;
+}
+
 .liEspecial {
     border: 2px solid #7bcedb;
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
 }
 
-header h1 {
-    color: #7bcedb;
-}
